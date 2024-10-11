@@ -4,12 +4,7 @@ public class Date {
 	private int mês,dia,ano;
 	
 	public Date(int dia,int mês,int ano) {
-		if(mês==2 && dia>0 && dia <29) {
-			this.mês=mês;
-			this.dia=dia;
-			}else {
-				System.out.println("Data Inválida");
-			}
+		
 		if(mês>0 && mês <13)
 			this.mês=mês;
 		if(dia>0 && dia<31)
