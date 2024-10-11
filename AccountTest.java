@@ -10,28 +10,28 @@ public class AccountTest {
 		Account account2=new Account("Vilmacy Maria Pessoa",-7.65);
 		AccountTest.displayAccount(account1, account2);
 		
-		//adicionar ao saldo da conta 1
+		
 		System.out.println("entre com o deposit amount  para account1: ");
 		double depositAmount = input.nextDouble();
 		System.out.printf("%n adicionar %.2f em account1%n%n", depositAmount);
 		account1.deposit(depositAmount);
 		AccountTest.displayAccount(account1, account2);
 		
-		//adicionar ao saldo da conta 2
+		
 		System.out.println("entre com o deposit amount  para account2: ");
 		depositAmount= input.nextDouble();
 		System.out.printf("%n adicionar %.2f em account2%n%n",depositAmount);
 		account2.deposit(depositAmount);
 		AccountTest.displayAccount(account1, account2);
 		
-		//débito da conta 1
+		
 		System.out.println("quanto deseja retirar de account1: ");
 		double débito= input.nextDouble();
 		System.out.printf("%n retirar %.2f em account1%n%n",débito);
 		account1.withdraw(débito);
 		AccountTest.displayAccount(account1, account2);
 		
-		//débito da conta 2.
+		
 		System.out.println("Quanto deseja retirar de account2: ");
 		débito=input.nextDouble();
 		System.out.printf("Retirar %.2f de account2%n%n", débito);
